@@ -2790,7 +2790,7 @@ bool InitBlockIndex() {
         //   vMerkleTree: 97ddfbbae6
 
         // Genesis block
-        const char* pszTimestamp = "05/Nov/2014 Police: 1 dead after car rams Jerusalem train platform in terror attack";
+        const char* pszTimestamp = "KLTC KLTC KLTC The secret is in the Taste KLTC KLTC KLTC";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2802,13 +2802,13 @@ bool InitBlockIndex() {
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1415210670;
+        block.nTime    = 1617311459;
         block.nBits    = 0x1e0ffff0;
         block.nNonce   = 2110551;
 
         if (fTestNet)
         {
-            block.nTime    = 1415210670;
+            block.nTime    = 1617311559;
             block.nNonce   = 2110551;
         }
 
